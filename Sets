@@ -1,0 +1,14 @@
+import java.util.Set;
+import java.util.HashSet;
+public class Sets {
+	public static void main(String[]args) {
+		Set<String> values = new HashSet<String>();  
+		values.add("Ashri");
+		values.add("Harshi");
+		values.add("Hemanth");
+		values.add("Divya");
+		values.add("Vidyasri");
+		values.add("Vasudha");
+		System.out.println(values);
+}
+}

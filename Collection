@@ -1,0 +1,19 @@
+import java.util.ArrayList;
+import java.util.Collection;
+
+public class Collection1 {
+
+	public static void main(String[] args) {
+		Collection<String>values = new ArrayList();
+		//values.add(3);
+		values.add("ASHRITHA");
+		//values.add(20.14);
+		values.add("HARSHITHA");
+		values.add("USHARANI");
+		values.add("RAMPRASAD");
+		
+		System.out.println(values);
+
+	}
+
+}
